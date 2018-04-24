@@ -1,0 +1,10 @@
+问题描述：
+
+用命令 conda install -c anaconda pymc 安装pymc报错：
+UnsatisfiableError: The following specifications were found to be in conflict：
+  - blaze
+  - pymc
+Use "conda info <package>" to see the dependencies for each package.
+
+如何解决：
+用命令conda install -c conda-forge pymc 安装。
